@@ -17,9 +17,9 @@ public class Main {
         System.out.println("5. Print data with expiration date");
         System.out.print("Choose: "); choose = scanner.nextInt();
 
-        Pharmacy pharmacy1 = new Pharmacy("ashvaganda", 10, 3, LocalDate.now());
-        Pharmacy pharmacy2 = new Pharmacy("nurofen", 4, 99, LocalDate.now());
-        Pharmacy pharmacy3 = new Pharmacy("stromba", 7, 58, LocalDate.now());
+        Pharmacy pharmacy1 = new Pharmacy("Aspirin", 10.99, 3, LocalDate.now());
+        Pharmacy pharmacy2 = new Pharmacy("Vitamin C", 8.99, 99, LocalDate.now());
+        Pharmacy pharmacy3 = new Pharmacy("Strepsils", 15.99, 58, LocalDate.now());
 
         ArrayList<Pharmacy> pharmacies = new ArrayList<>();
 
